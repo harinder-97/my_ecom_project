@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 23, 2021 at 04:19 PM
+-- Generation Time: Feb 26, 2021 at 10:01 PM
 -- Server version: 10.1.35-MariaDB
 -- PHP Version: 7.2.9
 
@@ -39,12 +39,15 @@ CREATE TABLE `book_inventory` (
 --
 
 INSERT INTO `book_inventory` (`book_id`, `book_name`, `book_quantity`) VALUES
-(1, 'The monk who sold his ferrari', 20),
+(1, 'The monk who sold his ferrari', 13),
 (2, 'How to be a bawse', 15),
-(3, 'The subtle art of not giving a f*ck', 15),
-(4, 'Ikigai', 26),
-(5, 'Milk and Honey', 30),
-(6, 'The highly senstive', 18);
+(3, 'The subtle art of not giving a f*ck', 12),
+(4, 'Ikigai', 23),
+(5, 'Milk and Honey', 25),
+(6, 'The highly senstive', 16),
+(7, 'Luster', 10),
+(8, 'The glass hotel', 19),
+(9, 'Everything happens for a reason', 35);
 
 --
 -- Indexes for dumped tables
@@ -64,7 +67,7 @@ ALTER TABLE `book_inventory`
 -- AUTO_INCREMENT for table `book_inventory`
 --
 ALTER TABLE `book_inventory`
-  MODIFY `book_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `book_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
